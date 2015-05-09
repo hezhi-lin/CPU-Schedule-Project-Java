@@ -44,4 +44,14 @@ public class Process implements Comparable<Process>{
 			
 	};
 	
+	public static Comparator<Process> ProcessPriorityComparator2 = new Comparator <Process>() {
+		
+		@Override
+		public int compare(Process o1, Process o2) {
+			// TODO Auto-generated method stub
+			return o2.priority - o1.priority;
+		}
+		
+};
+	
 }

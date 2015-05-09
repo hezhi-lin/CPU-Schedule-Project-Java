@@ -32,9 +32,4 @@ public class SJFSchedule {
 		
 		return this.timeSheet;
 	}
-	
-//	public void print()
-//	{
-//		System.out.println(this.timeSheet);
-//	}
 }

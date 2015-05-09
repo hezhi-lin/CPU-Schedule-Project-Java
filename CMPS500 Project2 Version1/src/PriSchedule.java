@@ -31,7 +31,6 @@ public class PriSchedule {
 		
 		public ArrayList<Integer> getTimeSheet() 
 		{
-			
 			return this.timeSheet;
 		}
 		
