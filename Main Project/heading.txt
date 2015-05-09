@@ -1,0 +1,69 @@
+*************************************************************************
+|		CMPS S00 — Operating Systems — Fall 2014		|
+|									|
+|	Project 2 <A Group—Based Project) — Version 1:			|
+|									|
+|				Group 1 				|
+|									|
+|		Simulating CPU Scheduling Algorithms in C++ 		|
+|READ, READ, AND READ AND FOLLOW THE INFORMATION BELOW			|
+|									|
+|Project Due: Monday, November 24, 2014 e 11:00 AM on Blackboard	|
+|									|
+|Project Defense Dates: November 24 and November 26, 2014, 		|
+|			11 AM to 12:20 PM in class			|
+|									|
+|Project Submission: Each group's member is required to 		|
+|		submit on Blackboard by the due date and time 		|
+|		his/her own copy of the project implementation. 	|
+|		But all the members of the group should submit 		|
+|		the same implementation_ 				|
+|									|
+|		Submit: 1) The source code of the project 		|
+|			2) The self—executable code of the project 	|
+|			3) Project Evaluation form 			|
+|		All these three files in a zip folder but NOT 		|
+|		separately_ Name the zip folder as: 			|
+|									|
+|		LastFirstnamesProject2Group1 				|
+|									|
+|		Any member who fails to submit his/her own copy 	|
+|		of the project and document on time will get 		|
+|		a zero on the project					|
+|									|
+|Provide here the full names of the group members with 			|
+|the name of the group leader on the top of the list 			|
+|and replace the word author in front of my name to 			|
+|Instructor. 								|
+|									|
+|Author: Mathieu H. Hourouma, Ph.D., SCJP 				|
+|		Department of Computer Science 				|
+|		College of Engineering and Computer Science 		|
+|		Southern University and A&M College 			|
+|		Designed and Implemented on: October 23, 2014 		|
+|									|
+|All Rights Reserved 							|
+|									|
+|Description: This program implements the CPU scheduling 		|
+|algorithms: First Come First Served, Shortest Job First, 		|
+|Priority, and Round Robin.						|
+|									|
+|Assumptions: This simulation considers the case of five 		|
+|(5) processes. Also lower priority numbers are assigned 		|
+|higher priority and all processes arrived at time 0. 			|
+|Non-preemptive scheduling is used. 					|
+|									|
+|Possibility for Enhancement: Note that this program can		|
+|be scaled to any number of processes. Also all the 			|
+|input values: burst times, priority, process count, and 		|
+|the quantum time could he generated randomly or could  		|
+|be stored and read from a file. Adding any of theses 			|
+|enhancements will result in BONUS or EXTRA POINTS. 			|
+|									|
+|Inputs Validity: The quantum and burst times cannot he 		|
+|zero or negative. The priority cannot he negative.			|
+|									|
+|Testing: Use the illustration example provided in the 			|
+|textbook on Page 308, Exercise 6.16 to test this program 		|
+|and your group implementation of the project.				|
+*************************************************************************
